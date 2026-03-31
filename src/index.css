@@ -51,6 +51,39 @@ input[type="checkbox"]{
   margin-right: 10px;
 }
 
+.selection{
+  background-color: #6d50a0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.filters button {
+  background-color: #82a371;
+  color: #000;
+  border: none;
+  border-radius: 2rem;
+  padding :5px 10px;
+  cursor: pointer;
+}
+
+.sort select {
+  background-color: #ca87a1;
+  color: #000;
+  border: none;
+  border-radius: 2rem;
+  padding :5px 10px;
+  cursor: pointer;
+}
+
+.category {
+  background-color: #349bb5; 
+  color: #000;
+  border: none;
+  border-radius: 2rem;
+  padding :5px 10px;
+  cursor: pointer;
+}
 
 .list {
   background-color: #B7B7B7;

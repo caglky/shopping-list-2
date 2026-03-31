@@ -1,4 +1,4 @@
-export default function Item({ item, onDeleteItem, onUpdateItem }){
+export default function Item({ item, onDeleteItem, onUpdateItem}){
   return(
     <li>
       <input type="checkbox" checked = {item.completed} onChange= {()=> onUpdateItem(item.id)}/>
